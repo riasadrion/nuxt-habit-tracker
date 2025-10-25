@@ -1,0 +1,28 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+vendor/
+**/vendor/
+
+# Nuxt build
+.nuxt/
+**/.nuxt/
+.output/
+**/.output/
+
+# Laravel
+/storage/
+backend/storage/
+public/storage/
+backend/public/storage/
+.env
+backend/.env
+.env.*
+
+# Logs & caches
+*.log
+npm-debug.log*
+yarn-error.log*
+/.idea/
+/.vscode/
+.DS_Store

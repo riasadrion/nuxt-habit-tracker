@@ -1,0 +1,56 @@
+﻿:root {
+  color-scheme: light;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: radial-gradient(circle at top, #1f5f8b, #050b1a 65%);
+  min-height: 100vh;
+  margin: 0;
+  color: #f8f9fa;
+}
+
+main,
+.auth-wrapper,
+.dashboard,
+.pet-detail {
+  min-height: 70vh;
+}
+
+.glass {
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.progress {
+  height: 8px;
+  border-radius: 999px;
+}
+
+.streak {
+  background: linear-gradient(135deg, rgba(13, 202, 240, 0.3), rgba(13, 110, 253, 0.3));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card {
+  border: none;
+}
+
+input,
+select,
+textarea {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  color: #fff !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 202, 240, 0.25);
+}
+
+.app-wrapper {
+  min-height: 100vh;
+}
